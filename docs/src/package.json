@@ -1,0 +1,25 @@
+{
+  "name": "groundsegmentation",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:build": "vuepress build docs",
+    "docs:dev": "vuepress dev docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rettier/groundsegmentation.git"
+  },
+  "author": "Philipp Reitter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rettier/groundsegmentation/issues"
+  },
+  "homepage": "https://rettier.github.io/groundsegmentation/",
+  "devDependencies": {
+    "vuepress": "^1.4.1"
+  }
+}
