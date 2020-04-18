@@ -1,5 +1,5 @@
 module.exports = {
   title: 'Improving robot navigation through semantic image segmentation',
-  description: '',
+  description: ' ',
   base: "/groundsegmentation/"
 }

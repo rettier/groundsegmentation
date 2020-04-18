@@ -124,11 +124,10 @@ This step implements the connected component refinement described in the thesis.
 The last step in the pipeline is the human review step. A user interface was implemented to assist the reviewer in manually flag each frame as good or bad. The reviewer is presented with a blended image of a mask and the color image. He then has to decide whether to keep the frame or remove it. Additionally, a frame can be skipped to be reviewed later. 
 
 Keyboard actions:
-*
-    * **Return**: mark mask as good
-    * **Backspace**: mark mask as bad
-    * **Left Arrow / Right Arrow**: go one mask backwards / forwards
-    * **Escape**: close the interface and save all changes
-    * **1, 2, 3**: switch between (1) blended, (2) mask only or (3) color only view mode
-*
+* **Return**: mark mask as good
+* **Backspace**: mark mask as bad
+* **Left Arrow / Right Arrow**: go one mask backwards / forwards
+* **Escape**: close the interface and save all changes
+* **1, 2, 3**: switch between (1) blended, (2) mask only or (3) color only view mode
+
 The user interface outputs two text files in the output folder named `good.txt` and `bad.txt` with the respective file paths of good and bad masks. These files can then be used to collect the data for training the neuronal network.
